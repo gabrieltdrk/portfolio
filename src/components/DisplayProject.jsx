@@ -7,7 +7,7 @@ export function DisplayProject({ project }) {
     navigate(`/projects/${project.id}`)
   }
   return (
-    <div onClick={handleProjectClick} className="bg-slate-100 justify-center rounded-md m-3 hover:cursor-pointer">
+    <div onClick={handleProjectClick} className="bg-blue-200 justify-center rounded-md m-3 hover:cursor-pointer shadow-md">
       <div className="flex flex-col gap-6 p-6 items-center">
         <h2>{project.title}</h2>
         <h2>{project.languages}</h2>
