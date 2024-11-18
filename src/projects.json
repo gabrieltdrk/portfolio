@@ -5,16 +5,17 @@
         "title": "Todolist Angular",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sed et temporibus illum sit consequuntur voluptatem, officiis pariatur repellendus modi quis culpa deserunt consequatur. Aliquid nam quos quidem voluptates a.",
         "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
-        "languages": ["angular"],
+        "languages": ["angularjs", "typescript", "html5"],
         "url": "https://github.com/gabrieltdrk/angular-todolist-app",
-        "status": "completed"
+        "status": "finished"
       },
       {
         "id": 2,
         "title": "Uai Bot / Bluesky Bot",
         "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
-        "languages": ["js", "angular"],
-        "status": "not finished"
+        "languages": ["javascript"],
+        "url": "https://github.com/gabrieltdrk/bluesky-bot",
+        "status": "finished"
       },
       {
         "id": 3,
