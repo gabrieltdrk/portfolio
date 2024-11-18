@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom'
+import { XLogo, GithubLogo, LinkedinLogo, ReadCvLogo } from '@phosphor-icons/react';
 
 export function Footer() {
   const year = new Date().getFullYear();
   return (
     <>
       <footer className={`md:text-2xl p-4 w-full bg-default-dark text-zinc-100 transition-all`}>
-        <div className="flex flex-col justify-between w-[60%] mx-auto">
+        <div className="flex justify-between w-[60%] mx-auto">
           <h1 className="self-center">Gabriel Andrade | © {year} </h1>
-          <div className="flex justify-between">
-            <p className="self-start">Find me:</p>
-            <Link>GitHub</Link>
-            <Link>Twitch</Link>
-            <Link>Youtube</Link>
-            <Link>X / Twitter</Link>
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Link to="https://github.com/gabrieltdrk"><GithubLogo /></Link>
+            <Link to="https://www.linkedin.com/in/gabrieltdrk/"><LinkedinLogo /></Link>
+            <Link to="https://x.com/gabrieltdrk"><XLogo /></Link>
+            <Link to=""><ReadCvLogo /></Link>
           </div>
         </div>
       </footer>

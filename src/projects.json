@@ -12,6 +12,7 @@
       {
         "id": 2,
         "title": "Uai Bot / Bluesky Bot",
+        "description": "Started on Twitter and now only active on Bluesky, the 'Uai Bot' is a bot that identifies the word 'uai' and reposts it every 15 minutes on the profile. 'Uai' is a very characteristic interjection from the state of Minas Gerais, Brazil. It doesn't have a single meaning but is used in a variety of ways in the everyday language of people from Minas Gerais. It can express surprise, doubt, indignation, confirmation, or even be used to emphasize a phrase. The meaning and tone of 'uai' depend on the context and intonation.",
         "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
         "languages": ["javascript"],
         "url": "https://github.com/gabrieltdrk/bluesky-bot",
@@ -19,30 +20,20 @@
       },
       {
         "id": 3,
-        "title": "Nome do Projeto3",
+        "title": "SpeechRecognition API",
+        "description": "It is an application that converts audio notes into text, using the browser's native speech recognition API. It is also possible to add text, if necessary.",
         "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
-        "languages": ["js", "angular"],
-        "status": "not finished"
+        "languages": ["react", "typescript", "tailwindcss"],
+        "url": "https://github.com/gabrieltdrk/nlw-experts-reactjs-14",
+        "status": "finished"
       },
       {
         "id": 4,
-        "title": "Nome do Projeto4",
+        "title": "Hackathon Unisanta - 2024",
+        "description": "Achieving first place in the first hackathon held at Universidade Santa Cecília, focused on the company Grupo FCamara, this marks the beginning of a 'portfolio hub' where people can easily and effectively showcase their projects. It's a tool created to help new programmers share their projects quickly and efficiently. We know that at the start of their careers, many face difficulties finding a space or platform to showcase their work. With this in mind, Orange Portfolio was designed to allow both members and non-members of the Orange Juice community to share their projects easily. With a simple and intuitive interface, our users can upload, edit, and delete their work with ease.",
         "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
-        "languages": ["js", "angular"],
-        "status": "not finished"
-      },
-      {
-        "id": 5,
-        "title": "Nome do Projeto5",
-        "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
-        "languages": ["js", "angular"],
-        "status": "not finished"
-      },
-      {
-        "id": 6,
-        "title": "Nome do Projeto6",
-        "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
-        "languages": ["js", "angular"],
+        "languages": ["react", "spring", "tailwindcss", "mysql"],
+        "url": "https://github.com/gabrieltdrk/hacksanta",
         "status": "not finished"
       }
     ]
