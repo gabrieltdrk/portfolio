@@ -5,10 +5,7 @@ import { useState } from 'react'
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const linkActive = ({ isActive }) =>
-    isActive
-      ? 'rounded-md underline underline-offset-2 decoration-1 hover:text-gray-200 transition-all hover:animate-pulse decoration-indigo-500 hover:decoration-indigo-400'
-      : 'hover:animate-pulse transition-all hover:text-gray-400'
+  const linkActive = ({ isActive }) => (isActive ? 'rounded-md underline underline-offset-2 decoration-1 hover:text-gray-200 transition-all hover:animate-pulse decoration-indigo-500 hover:decoration-indigo-400' : 'hover:animate-pulse transition-all hover:text-gray-400')
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen)
@@ -30,9 +27,6 @@ export function Header() {
               </NavLink>
               <NavLink to="/about" className={linkActive}>
                 /about
-              </NavLink>
-              <NavLink to="/downloadCV" className={linkActive}>
-                /downloadCV
               </NavLink>
             </ul>
           </nav>

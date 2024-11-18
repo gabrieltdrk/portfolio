@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { XLogo, GithubLogo, LinkedinLogo, ReadCvLogo } from '@phosphor-icons/react';
+import { XLogo, GithubLogo, LinkedinLogo } from '@phosphor-icons/react';
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -12,7 +12,6 @@ export function Footer() {
             <Link to="https://github.com/gabrieltdrk"><GithubLogo /></Link>
             <Link to="https://www.linkedin.com/in/gabrieltdrk/"><LinkedinLogo /></Link>
             <Link to="https://x.com/gabrieltdrk"><XLogo /></Link>
-            <Link to=""><ReadCvLogo /></Link>
           </div>
         </div>
       </footer>
