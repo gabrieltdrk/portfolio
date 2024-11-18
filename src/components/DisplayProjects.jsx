@@ -1,6 +1,6 @@
 import json from '../projects.json'
 import { ProjectCard } from './ProjectCard'
-import { ViewAllProjects } from './ViewAllProjects'
+import { ButtonLink } from './ButtonLink'
 
 export function DisplayProjects({ isHome }) {
   const slicedProjects = isHome ? json.projects.slice(0, 3) : json.projects
@@ -13,7 +13,7 @@ export function DisplayProjects({ isHome }) {
             <ProjectCard project={project} key={project.id} />
           ))}
         </div>
-        {isHome && <ViewAllProjects />}
+        {isHome && <ButtonLink redirect="/projects" />}
       </div>
     </>
   )

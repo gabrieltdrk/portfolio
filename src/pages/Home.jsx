@@ -4,9 +4,9 @@ import { HeaderBanner } from '../components/HeaderBanner'
 
 export function Home() {
   return (
-    <main className="bg-gray-50">
+    <main>
       <HeaderBanner />
-      <AboutInfo />
+      <AboutInfo isHome />
       <DisplayProjects isHome />
     </main>
   )
