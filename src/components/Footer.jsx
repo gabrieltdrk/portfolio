@@ -1,20 +1,21 @@
+import { Link } from 'react-router-dom'
+
 export function Footer() {
+  const year = new Date().getFullYear();
   return (
-    <footer className="w-full text-4xl m-auto">
-      <div className="flex justify-center gap-12 p-3 underline text-blue-900">
-        <a
-          href="https://github.com/gabrieltdrk"
-          className="hover:text-blue-600"
-        >
-          GITHUB
-        </a>
-        <a
-          href="https://twitter.com/gabrieltdrk"
-          className="hover:text-blue-600"
-        >
-          TWITTER
-        </a>
-      </div>
-    </footer>
-  );
+    <>
+      <footer className={`md:text-2xl p-4 w-full bg-default-dark text-zinc-100 transition-all`}>
+        <div className="flex flex-col justify-between w-[60%] mx-auto">
+          <h1 className="self-center">Gabriel Andrade | © {year} </h1>
+          <div className="flex justify-between">
+            <p className="self-start">Find me:</p>
+            <Link>GitHub</Link>
+            <Link>Twitch</Link>
+            <Link>Youtube</Link>
+            <Link>X / Twitter</Link>
+          </div>
+        </div>
+      </footer>
+    </>
+  )
 }

@@ -2,10 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-default {
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+.bg-default-dark {
     background-image: linear-gradient(to right, var(--tw-gradient-stops));
-    --tw-gradient-from: #12328a var(--tw-gradient-from-position);
-    --tw-gradient-to: rgba(255, 255, 255, 0) var(--tw-gradient-to-position);
+    --tw-gradient-from: #2a2c32 var(--tw-gradient-from-position);
+    --tw-gradient-to: #ffffff00 var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-    --tw-gradient-to: #091028 var(--tw-gradient-to-position);
+    --tw-gradient-to: #1a1b1f var(--tw-gradient-to-position);
+}
+
+.bg-default-gray {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #373737 var(--tw-gradient-from-position);
+    --tw-gradient-to: #959595 var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #373737 var(--tw-gradient-to-position);
+    border: 1px solid black;
+}
+
+.bg-default-white {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #ffffff var(--tw-gradient-from-position);
+    --tw-gradient-to: #000000 var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #e7e7e7 var(--tw-gradient-to-position);
+    border: 1px solid black;
 }

@@ -2,7 +2,8 @@
     "projects": [
       {
         "id": 1,
-        "title": "Nome do ProjetopppppppppppppppppppppppppProjetopppppppppppppppppppppppppProjetopppppppppppppppppppppppppProjetopppppppppppppppppppppppppProjetopppppppppppppppppppppppppProjetopppppppppppppppppppppppppProjetopppppppppppppppppppppppppProjetoppppppppppppppppppppppppp",
+        "title": "Nome do Projeto1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sed et temporibus illum sit consequuntur voluptatem, officiis pariatur repellendus modi quis culpa deserunt consequatur. Aliquid nam quos quidem voluptates a.",
         "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
         "languages": ["ts", "angular"],
         "status": "completed"
@@ -24,6 +25,20 @@
       {
         "id": 4,
         "title": "Nome do Projeto4",
+        "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
+        "languages": ["js", "angular"],
+        "status": "not finished"
+      },
+      {
+        "id": 5,
+        "title": "Nome do Projeto5",
+        "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
+        "languages": ["js", "angular"],
+        "status": "not finished"
+      },
+      {
+        "id": 6,
+        "title": "Nome do Projeto6",
         "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
         "languages": ["js", "angular"],
         "status": "not finished"
