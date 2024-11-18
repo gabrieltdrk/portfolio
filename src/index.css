@@ -31,3 +31,24 @@
     --tw-gradient-to: #e7e7e7 var(--tw-gradient-to-position);
     border: 1px solid black;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2a2c32;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6366f1;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #818cf8;
+}

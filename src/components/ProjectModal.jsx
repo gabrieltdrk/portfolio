@@ -16,7 +16,7 @@ export function ProjectModal({ project, onClose }) {
         <div className="p-6 flex flex-col gap-4 divide-y-4 divide-blue-950">
           <div className="flex justify-between">
             <h1 className="break-words text-2xl md:text-xl font-bold">{project.title}</h1>
-            <Link className="hover:underline text-blue-900" to={project.link}>
+            <Link className="hover:underline text-blue-900" to={project.url}>
               Go to project
             </Link>
           </div>
