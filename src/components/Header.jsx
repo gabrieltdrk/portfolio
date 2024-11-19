@@ -31,7 +31,6 @@ export function Header() {
             </ul>
           </nav>
 
-          {/* Ícone do menu para telas pequenas */}
           <div className="sm:hidden">
             <button onClick={toggleMenu} aria-label="Toggle menu">
               <List size={28} weight="bold" className="hover:text-indigo-500 transition-all" />
@@ -39,7 +38,6 @@ export function Header() {
           </div>
         </div>
 
-        {/* Menu suspenso para telas pequenas */}
         {menuOpen && (
           <nav className="block sm:hidden bg-default-dark text-zinc-100 mt-2 p-4 shadow-lg rounded-md">
             <ul className="flex flex-col gap-4">
@@ -51,9 +49,6 @@ export function Header() {
               </NavLink>
               <NavLink to="/about" className={linkActive} onClick={toggleMenu}>
                 /about
-              </NavLink>
-              <NavLink to="/downloadCV" className={linkActive} onClick={toggleMenu}>
-                /downloadCV
               </NavLink>
             </ul>
           </nav>
