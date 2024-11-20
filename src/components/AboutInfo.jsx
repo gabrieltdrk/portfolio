@@ -7,7 +7,7 @@ export function AboutInfo({ isHome }) {
   const hasBirthdayPassed = today.getMonth() > birthDate.getMonth() || (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate())
   const ageFinal = hasBirthdayPassed ? age : age - 1
 
-  const infoFullscreen = !isHome ? 'h-full' : ''
+  const infoFullscreen = !isHome ? 'h-screen' : ''
   return (
     <>
       <div className={`bg-default-dark text-gray-200 py-6 px-3 ${infoFullscreen}`}>
