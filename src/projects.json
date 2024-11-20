@@ -32,7 +32,7 @@
         "title": "Hackathon Unisanta - 2024",
         "description": "Achieving first place in the first hackathon held at Universidade Santa Cecília, focused on the company Grupo FCamara, this marks the beginning of a 'portfolio hub' where people can easily and effectively showcase their projects. It's a tool created to help new programmers share their projects quickly and efficiently. We know that at the start of their careers, many face difficulties finding a space or platform to showcase their work. With this in mind, Orange Portfolio was designed to allow both members and non-members of the Orange Juice community to share their projects easily. With a simple and intuitive interface, our users can upload, edit, and delete their work with ease.",
         "image": "https://blog.gokursos.com/wp-content/uploads/2023/05/programming-background-with-person-working-with-codes-computer-1200x800.jpg",
-        "languages": ["react", "spring", "tailwindcss", "mysql"],
+        "languages": ["react", "spring", "mysql"],
         "url": "https://github.com/gabrieltdrk/hacksanta",
         "status": "not finished"
       }

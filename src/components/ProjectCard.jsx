@@ -19,7 +19,7 @@ export function ProjectCard({ project }) {
 
   return (
     <div>
-      <div onClick={handleProjectClick} className="text-gray-950 m-3 justify-center hover:cursor-pointer shadow-lg border-2">
+      <div onClick={handleProjectClick} className="text-gray-950 m-3 justify-center hover:cursor-pointer border-2 border-gray-300">
         <div className="flex flex-col py-3 items-center">
           <h2 className="pt-3 font-bold">{project.title}</h2>
           <img className="p-6" src={project.image} alt="" />
