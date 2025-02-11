@@ -1,8 +1,16 @@
 {
-  "rewrites": [
-    beforeFiles: [
-      { "source": "/apps/secret-santa/login", "destination": "https://nextjs-secret-santa.vercel.app/login" }
-    ],    
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "rewrites": {
+    "beforeFiles": [
+      {
+        "source": "/apps/secret-santa/login",
+        "destination": "https://nextjs-secret-santa.vercel.app/login"
+      }
+    ],
+    "afterFiles": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
 }
