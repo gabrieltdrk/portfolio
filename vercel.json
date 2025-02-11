@@ -1,5 +1,6 @@
 {
-"rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+      "rewrites": [
+            { "source": "/(.*)", "destination": "/" },
+            { "source": "/apps/secret-santa/login(.*)", "destination": "http://nextjs-secret-santa.vercel.app/login" }
     ]
 }
