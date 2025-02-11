@@ -1,8 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/projects/secret-santa*",
-      "destination": "https://nextjs-secret-santa-air9riu9c-gabrieltdrk-personal.vercel.app*"
-    }
-  ]
+"rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
 }
