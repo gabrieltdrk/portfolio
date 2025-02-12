@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/apps/secret-santa/login", "destination": "https://nextjs-secret-santa.vercel.app/login" },
+    { "source": "/apps/secret-santa/login", "destination": "https://meu-amigo-misterio.vercel.app/login" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
