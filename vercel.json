@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/apps/meu-amigo-misterio/login", "destination": "https://meu-amigo-misterio.vercel.app/login" },
+    { "source": "/apps/meu-amigo-misterio", "destination": "https://meu-amigo-misterio.vercel.app" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
