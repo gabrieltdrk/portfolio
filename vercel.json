@@ -1,16 +1,6 @@
 {
-  "rewrites": {
-    "beforeFiles": [
-      {
-        "source": "/apps/meu-amigo-misterio/login",
-        "destination": "https://meu-amigo-misterio.vercel.app/login"
-      }
-    ],
-    "afterFiles": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
-      }
-    ]
-  }
+  "rewrites": [
+    { "source": "/apps/meu-amigo-misterio/login", "destination": "https://meu-amigo-misterio.vercel.app/login" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
