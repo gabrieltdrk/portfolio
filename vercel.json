@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/apps/meu-amigo-misterio:match(.*)",
-      "destination": "https://meu-amigo-misterio.vercel.app:match"
+      "source": "/apps/meu-amigo-misterio/:match(.*)",
+      "destination": "https://meu-amigo-misterio.vercel.app/:match"
     },
     {
       "source": "/(.*)",
