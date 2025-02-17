@@ -5,10 +5,6 @@
       "destination": "https://meu-amigo-misterio.vercel.app/login"
     },
     {
-      "source": "/apps/meu-amigo-misterio/_next/(.*)",
-      "destination": "https://meu-amigo-misterio.vercel.app/_next/$1"
-    },
-    {
       "source": "/(.*)",
       "destination": "/"
     }
